@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ResponsiveAppBar from './com/nav';
+import Img from './com/img';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ResponsiveAppBar />
+<Img/>
   </React.StrictMode>
 );
 
